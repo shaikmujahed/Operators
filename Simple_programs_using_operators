@@ -1,0 +1,13 @@
+mystring1="12345"
+mystring2="67890"
+mystring3=mystring1+mystring2
+print("Assigment concatenation: "+mystring3)
+print("In-line concatenation: "+mystring1+mystring2)
+mystring1+=mystring2
+print("self_Assignment concatenation: "+mystring1)
+
+mystring1="12345\n"
+mystring2="67890"
+print(mystring1)
+print(mystring2)
+print("In-line concatenation: "+mystring1+mystring2)
