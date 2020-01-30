@@ -1,0 +1,15 @@
+mystring="ABCDE"
+
+if "BC" in mystring:
+    print("BC was found!")
+else:
+    print("BC was not found!")
+if "GH" in mystring:
+    print("GH was found!")
+else:
+    print("GH was not found!")
+    if "D" in mystring:
+        print("D was found!")
+    else:
+        print("D was not found!")
+print(mystring)
