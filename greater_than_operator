@@ -1,0 +1,10 @@
+def f_m_s(m_list):
+    c_m_m=""
+    c_m_s=-1
+    for m_t in m_list:
+        if m_t[1] > c_m_s:
+            c_m_s=m_t[1]
+            c_m_m=m_t[0]
+    return c_m_m
+m_list=[("STT",500),("FSG",540),("13 RSONWHY",600),("GOT",1000)]
+print(f_m_s(m_list))
