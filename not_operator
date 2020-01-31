@@ -1,0 +1,12 @@
+def mob(check_no,search_no):
+    if search_no not in check_no:
+        print(search_no + " is not macting try again!")
+    else:
+        print(" OTP send!" + search_no + " on this")
+
+
+
+my_mail="jackson@gmail.com"
+mail(my_mail,"hilton@gmail.com")
+my_no="7329913104"
+mob(my_no,"7329913104")
